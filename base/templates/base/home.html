@@ -1,0 +1,80 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Harsh Mehta</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/harshmehta.jpeg' %}" >
+					<hr>
+					<h4>Hi I'm Harsh!</h4>
+					<p>I love coding, travelling and playing soccer</p>
+				</div>
+			</div>
+
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>About Me</h4>
+					<hr>
+					<p>Hey there, I'm Harsh - a self-proclaimed computer whiz, creative aficionado, and aspiring business mogul. Originally from Mumbai, I traded in the Indian heat for the snowy landscape of Penn State University, where I earned a degree in Computer Science and a minor in Entrepreneurship & Innovation. When I'm not crafting cutting-edge software solutions or leading projects to success, I'm usually lost in a world of design inspiration or scheming up the next big thing. My passion lies in finding the sweet spot between technology and business to create transformative solutions that make a real impact. With expertise in web development, cloud engineering, and project management, I'm ready to help take your vision to the next level. So, whether you're looking to streamline your business processes, revamp your online presence, or simply looking for a partner who can help bring your wildest tech dreams to life, I'm your guy! </p>
+					<ul class="social-links">
+						<li><a href="https://www.github.com/harshmhta" target=”_blank”><img class="social" src="{% static 'images/github.svg' %}"></li></a>
+
+						<li><a href="https://www.linkedin.com/in/harshmhta/" target=”_blank”><img class="social" src="{% static 'images/linkedin.svg' %}"></li></a>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Experience</h5>
+					<hr>
+					<p>With over two years of experience in the tech industry, I've honed my skills in web development, cloud engineering, and project management. As a technical project manager intern at DotcomWeavers, I efficiently managed all projects in the pipeline and successfully reduced the company's inherent additional costs. At Learnero, I assisted in the migration of an e-learning platform to AWS, implemented high availability and cluster scalability strategies, and managed a continuous integration and deployment pipeline using Jenkins. Additionally, as a freelance remote web developer and designer, I created fully functional online stores and improved search visibility and brand awareness for small businesses.</p>
+					</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>What I Know</h5>
+					<hr>
+					<p>I have expertise in programming languages such as Python, C, C++, Java, and web development technologies such as HTML5, CSS3, and JavaScript. Additionally, I'm proficient in cloud services like Amazon Web Services and Microsoft Azure, and I'm skilled in tools like GitHub, JIRA, and SQL. I have experience with various project management methodologies such as Agile Scrum and possess strong problem-solving skills, making me adept at finding effective solutions to complex problems.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>How I Learn</h5>
+					<hr>
+					<p>I believe in continuous learning and keeping up with the latest technologies and trends in the tech industry. I love taking online courses and attending workshops to expand my knowledge base. I also enjoy collaborating with other professionals in the industry and learning from their experiences. When working on a project, I always research and explore different approaches to find the best possible solution.</p>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>My Short Term Goals</h5>
+				<hr>
+				<p>In the short term, I'm looking to expand my knowledge in machine learning and artificial intelligence to enhance my skillset further. I'm also looking to gain more experience in cloud computing and become proficient in cloud architecture and infrastructure design. I'm passionate about entrepreneurship and innovation, and I plan to use my technical skills to build innovative solutions that solve real-world problems. Ultimately, my goal is to continue growing as a tech professional and create transformative solutions that make a positive impact on the world.</p>
+				</div>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>
