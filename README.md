@@ -2,6 +2,10 @@
 
 This is a simple portfolio website built using Django that showcases my skills and experience as a software developer. The website includes a homepage with an about me, my experience section that showcases my work, what I know section that has more information about the technologies I know, how I learn and my short-term goals.
 
+## Screenshot
+
+<img width="1440" alt="Screen Shot 2023-03-17 at 5 36 06 PM" src="https://user-images.githubusercontent.com/58926340/226074301-d2df617c-620c-4952-b20c-011641f1ad20.png">
+
 ## Getting Started
 
 To get started with this project, you need to have the following tools installed on your system:
